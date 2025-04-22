@@ -1,0 +1,17 @@
+body {
+    background: black;
+    }
+
+    h1 {
+        color: yellow;
+        }
+
+    p {
+        color: white;
+        }
+
+        p:hover {
+            text-decoration: underline;
+            }
+
+
