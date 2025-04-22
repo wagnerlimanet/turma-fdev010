@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estrutura do Formulário</title>
+    </head>
+    <body>
+        <form action="" method="">
+            <!-- antigamente se fazia assim -->
+            <label>Nome:</label>
+                <input type="text" placeholder="Digite o seu login">
+
+            <br /><br />
+
+            <label>Nome:
+                <input type="text" placeholder="Digite o seu login">
+            </label>
+
+            <br /><br />
+            
+            <!-- hoje se faz assim -->
+            <label for="cadnome">Nome:</label>
+            <input id="cadnome" type="text" placeholder="Digite o seu login">
+            
+            <br /><br />
+            
+            <!-- hoje se faz assim -->
+            <label for="cadnome">Nome:</label>
+            <input id="cadnome" type="text" placeholder="Digite o seu login" name="cadnome">
+            
+        </form>
+    </body>
+</html>
