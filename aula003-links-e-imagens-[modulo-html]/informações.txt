@@ -1,0 +1,28 @@
+LINK / HIPERLINK
+	algo que ao clicar será direcionado para algum lugar
+	âncora (apontará para um local dentro ou fora da 		página)
+
+	algo (conteúdo)
+		texto, imagem, botão
+
+-----------------------------------------------
+local
+algo		ao clicar aqui abra isso
+clique
+-----------------------------------------------
+COMANDOS
+âncora		anchor	   a	   <a></a>
+
+--<a>--------------------------------
+| o que tiver aqui será o acionador |
+--</a>-------------------------------
+
+	href="url ou endereço"
+
+<a href="linkdolocal">
+   acionador
+</a>
+-----------------------------------------------
+linkdolocal
+	local diretório (pasta)
+	local externo (web / internet)
